@@ -26,7 +26,7 @@ We formulate the planning of furniture layout in the simulation of graphics indo
 Given the sizes and positions of the walls, windows, doors and furniture in a real room, the developed simulator transfers the real indoor scenes to simulated graphics indoor scenes. Different components are in different colors in the simulation.
 
 ![Results](fig4.jpg)
-Given a bathroom with random furniture positions, the trained RL agent is able to producea good layout for the bathroom graphics scenes. The first row represents the the ground truth layoutfor a bathroom in the simulation and its corresponding render. The second row represents the bath-room with random furniture positions.  The third row represents the final layouts produced by theproposed method. The fourth row represents the corresponding layout renders.
+Given a bathroom with random furniture positions, the trained RL agent is able to produce a good layout for the bathroom graphics scenes. The first row represents the the ground truth layoutfor a bathroom in the simulation and its corresponding render. The second row represents the bath-room with random furniture positions.  The third row represents the final layouts produced by theproposed method. The fourth row represents the corresponding layout renders.
 
 The Code and More Results will be released soon:)
 Please contact deepearthgo@gmail.com if you have questions.
