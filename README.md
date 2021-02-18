@@ -19,13 +19,13 @@ In the industrial interior design process, professional designers plan the size 
 
 Examples of layouts produced by the state-of-the-art models \citep{10.1145/3306346.3322941}. These layouts are for bedroom and tatami room. The ground truth layout in the simulator and the real-time renders can be found in the  first row. The layouts produced by the state-of-art models are shown in the second and third rows. It can be observed that the state-of-art model produces inaccurate position and size of the furniture.
 
-!.[MDP Formulation](fig2.jpg)
+![MDP Formulation](fig2.jpg)
 We formulate the planning of furniture layout in the simulation of graphics indoor scenes as a Markov decision process (MDP) augmented with a goal state $G$ that we would like an agent to learn. We develop the simulator for the interior graphic indoor scenes. Besides, we formulate the action, reward, policy and environment for the learning of the 2D furniture layout simulation.
 
-!.[Simulation Environment](fig3.jpg)
+![Simulation Environment](fig3.jpg)
 Given the sizes and positions of the walls, windows, doors and furniture in a real room, the developed simulator transfers the real indoor scenes to simulated graphics indoor scenes. Different components are in different colors in the simulation.
 
-!.[Results].(fig4.jpg)
+![Results].(fig4.jpg)
 Given a bathroom with random furniture positions, the trained RL agent is able to producea good layout for the bathroom graphics scenes. The first row represents the the ground truth layoutfor a bathroom in the simulation and its corresponding render. The second row represents the bath-room with random furniture positions.  The third row represents the final layouts produced by theproposed method. The fourth row represents the corresponding layout renders.
 
 The Code and More Results will be released soon:)
