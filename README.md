@@ -1,6 +1,5 @@
 # Deep Reinforcement Learning for Furniture Layout Simulation in Indoor Graphics Scenes
 
-Our paper is at https://arxiv.org/pdf/2101.07462.pdf
 
 ## Installation
 First install the dependencies via conda:
