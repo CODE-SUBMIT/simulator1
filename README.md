@@ -1,6 +1,5 @@
 # Deep Reinforcement Learning for Furniture Layout Simulation in Indoor Graphics Scenes
 
-
 ## Installation
 First install the dependencies via conda:
  * PyTorch >= 1.0.0
@@ -8,11 +7,12 @@ First install the dependencies via conda:
  * numpy
  * Python >= 3.6
 
-And then run `pip install .`
+## Introduction
 
-#### Deep Reinforcement Learning for Furniture Layout Simulation in Indoor Graphics Scenes
+In the industrial interior design process, professional designers plan the size and position of furniture in a room to achieve a satisfactory design for selling. In this paper, we explore the interior graphics scenes design task as a Markov decision process (MDP), which is solved by deep reinforcement learning. The goal is to produce an accurate layout for the furniture in the indoor graphics scenes simulation. In particular, we first formulate the furniture layout task as a MDP problem by defining the state, action, and reward function. We then design the simulated environment and deploy a reinforcement learning agent that interacts with the environment to learn the optimal layout for the MDP. 
 
-In the industrial interior design process, professional designers plan the size and position of furniture in a room to achieve a satisfactory design for selling. In this paper, we explore the interior graphics scenes design task as a Markov decision process (MDP), which is solved by deep reinforcement learning. The goal is to produce an accurate layout for the furniture in the indoor graphics scenes simulation. In particular, we first formulate the furniture layout task as a MDP problem by defining the state, action, and reward function. We then design the simulated environment and deploy a reinforcement learning agent that interacts with the environment to learn the optimal layout for the MDP. We conduct our experiments on a large-scale real-world interior layout dataset that contains industrial designs from professional designers. Our numerical results demonstrate that the proposed model yields higher-quality layouts as compared with the state-of-art model. 
+## Numerical results
+We conduct our experiments on a large-scale real-world interior layout dataset that contains industrial designs from professional designers. Our numerical results demonstrate that the proposed model yields higher-quality layouts as compared with the state-of-art model. 
 
 ![Size & Position](fig1.jpg)
 
@@ -30,6 +30,5 @@ Given the sizes and positions of the walls, windows, doors and furniture in a re
 
 Given a bathroom with random furniture positions, the trained RL agent is able to produce a good layout for the bathroom graphics scenes. The first row represents the the ground truth layoutfor a bathroom in the simulation and its corresponding render. The second row represents the bath-room with random furniture positions.  The third row represents the final layouts produced by theproposed method. The fourth row represents the corresponding layout renders.
 
-The Code and More Results will be released soon:)
-Please contact deepearthgo@gmail.com if you have questions.
+Code and more results will be released soon. Please contact deepearthgo@gmail.com if you have questions.
 
