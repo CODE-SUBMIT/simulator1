@@ -14,7 +14,7 @@ In the industrial interior design process, professional designers plan the size 
 ## Numerical results
 We conduct our experiments on a large-scale real-world interior layout dataset that contains industrial designs from professional designers. Our numerical results demonstrate that the proposed model yields higher-quality layouts as compared with the state-of-art model. 
 
-The figure below illustrate the examples of layouts produced by the state-of-the-art models. These layouts are for bedroom and tatami room. The ground truth layout in the simulator and the real-time renders can be found in the  first row. The layouts produced by the state-of-art models are shown in the second and third rows. It can be observed that the state-of-art model produces inaccurate position and size of the furniture.
+The figure below illustrate several examples of layouts produced by the state-of-the-art models. These layouts are for bedroom and tatami room. The ground truth layout in the simulator and the real-time renders can be found in the  first row. The layouts produced by the state-of-art models are shown in the second and third rows. It can be observed that the state-of-art model produces inaccurate position and size of the furniture.
 
 ![Size & Position](fig1.jpg)
 
@@ -31,5 +31,5 @@ Given a bathroom with random furniture positions, the trained RL agent is able t
 ![Results](fig4.jpg)
 
 
-Code and more results will be released soon. Please contact deepearthgo@gmail.com if you have any questions.
+Codes and more results will be released soon. Please contact deepearthgo@gmail.com if you have any questions.
 
