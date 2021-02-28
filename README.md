@@ -1,7 +1,7 @@
 # Deep Reinforcement Learning for Furniture Layout Simulation in Indoor Graphics Scenes
 
 ## Installation
-First install the dependencies via conda:
+Please install the dependencies via conda:
  * PyTorch >= 1.0.0
  * networkx
  * numpy
